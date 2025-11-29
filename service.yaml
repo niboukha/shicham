@@ -4,10 +4,10 @@ metadata:
   name: wil-playground
   namespace: dev
 spec:
+  clusterIP: None
   selector:
     app: wil-playground
   ports:
   - protocol: TCP
     port: 80
     targetPort: 8888
-  type: LoadBalancer
