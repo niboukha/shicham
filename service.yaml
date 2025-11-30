@@ -4,7 +4,7 @@ metadata:
   name: wil-playground
   namespace: dev
 spec:
-  clusterIP: None
+  type: ClusterIP
   selector:
     app: wil-playground
   ports:
